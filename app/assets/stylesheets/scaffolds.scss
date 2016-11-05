@@ -1,0 +1,107 @@
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+body {
+  // background-color: #fff;
+  // color: #333;
+
+  background: rgba(242,246,248,1);
+  background: -moz-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 22%, rgba(181,198,208,1) 63%, rgba(224,239,249,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(22%, rgba(216,225,231,1)), color-stop(63%, rgba(181,198,208,1)), color-stop(100%, rgba(224,239,249,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 22%, rgba(181,198,208,1) 63%, rgba(224,239,249,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 22%, rgba(181,198,208,1) 63%, rgba(224,239,249,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 22%, rgba(181,198,208,1) 63%, rgba(224,239,249,1) 100%);
+  background: linear-gradient(135deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 22%, rgba(181,198,208,1) 63%, rgba(224,239,249,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=1 );
+
+  // font-family: verdana, arial, helvetica, sans-serif;
+  font-family: 'Quattrocento', serif;
+  font-size: 15px;
+
+  line-height: 18px;
+  margin: 33px;
+}
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: #000;
+
+  &:visited {
+    color: #666;
+  }
+
+  &:hover {
+    color: #fff;
+//    background-color: #000;
+  }
+
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+  }
+
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
+
+label {
+  display: block;
+}
